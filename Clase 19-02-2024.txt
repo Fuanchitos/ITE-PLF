@@ -1,0 +1,48 @@
+Tipo de dato
+    Boolean
+    False :: Bool
+    True :: Bool
+    not :: Bool -> Bool
+        Entrada y Salida
+    
+    Type not
+    not :: Bool -> Bool
+
+    Char -> Caracteres Simples
+    'A' 'B' 'C' 'D' 'E'
+
+    String -> Cadena de caracteres
+    "Abc" "Hola" 
+
+    Int -> Numeros de tipo entero
+    -2^63 hasta 2^63
+
+    Integer -> Enteros de precision orbitaria
+    Enteros mas grandes que 2^63
+
+    Float -> Numeros de punto flotante de precision simple
+
+    Double -> Numeros de punto flotante de doble precision
+
+    Listas
+    [] ejemplo Listas de boolean 
+    [True,False,True] :: Boolean
+    [] ejemplo Listas de caracteres
+    ['A','B','C'] :: Char
+    [] ejemplo Listas de cadenas 
+    ["Abc", "Hola"] :: String
+    [] ejemplo Listas de Listas
+    [[[[]]]] 
+
+Tupla -> <> es una secuencia finita de componentes de posibles datos de diferente tipo
+(t1,t2,...,tn)
+(False,True) :: (Bool,Bool)
+(False)
+
+El numero de elemtnos de una tupla se le llama ardad
+() <- La tupla vacia -> Aridad cero
+(1)
+
+Las funciones tambien pueden ser tipeadas
+una funcion es un mapeo entre tipos de datos
+t1 -> t2
